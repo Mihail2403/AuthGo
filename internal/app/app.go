@@ -17,7 +17,6 @@ import (
 // }
 
 func Run() {
-
 	// init postgres
 	cfg := repository.Config{
 		Port:     os.Getenv("PG_PORT"),
